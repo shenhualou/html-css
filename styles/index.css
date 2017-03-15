@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#FFF;
+	color:#aa4519;
+	font-family: 'Signika Negative', sans-serif;
+}
+
+#container {
+	width:700px;
+/*	min-height:500px;*/
+	margin:0px auto;
+	}
+
+#header {
+	height:80px;
+	margin:0;
+	padding-top:20px
+	}
+
+#logo {
+	width:300px;
+	height:64px;
+	margin:0;
+	background-image:url(../images/Braille.png);
+	background-repeat:no-repeat;
+	float:left;
+	}
+
+#home {
+	width:110px;
+	padding-top:20px;
+	float:right;
+	}
+
+#main {
+	height: 270px;
+	width:700px;
+	margin:0;
+	float:left;
+	}	
+
+#main1 {
+	height: 270px;
+	width:700px;
+	margin:0;
+	background-repeat:no-repeat;
+	float:left;	
+	}
+	
+	
+.content {
+	float: right;
+	height:270px;
+	width: 470px;
+	padding-right: 30px;
+	}
+
+.main1left {
+	float: left;
+	padding-left:20px;
+	width: 150px;
+	}
+
+.thumbnail {
+	float: left;
+	width: 200px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	margin: 25px 3px;
+	padding:11px 11px;
+	color:#2c1a10;
+	}
+
+.floatright {
+	float: right;
+	margin: 0 0 10px 10px;
+	padding: 2px;
+	}
+	
+#navigation {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	}
+
+.aLink {
+	width: 110px;
+	height: 55px;
+	background-color:#efdcd4;
+	margin:0 0 40px 0;
+	float:left;
+	text-align:center;
+	text-decoration: none;
+	padding-top: 40px;
+	vertical-align:middle;
+	font-size:20px;
+	font-weight:bold;
+	}
+
+.aLinked {	
+	width: 110px;
+	height: 55px;
+	margin:0 0 20px 0;
+	float:left;
+	text-align:center;
+	text-decoration: none;
+	padding-top: 60px;
+	vertical-align:middle;
+	font-size:20px;
+	font-weight:bold;
+	z-index: -1;	
+	background-color:#e0cd7d;
+	position: relative;
+	top: -20px;
+	}
+	
+.linkIcon{
+	width:30px;
+	position: relative;
+	left: 10px;
+	top: -10px;
+	float: left;
+	}
+	
+#footer {
+	min-height:90px;
+	margin:0;
+	padding:10px;
+	font-size:15px;
+	text-align:center;
+	color:#FFF;
+	background-color:#aa4519;
+	clear:both;
+	}
+
+#footer a {
+	color:#fff;
+	}
+	
+.brown {color:#2c1a10;}
+	
+.red {color:#aa4519;}
+	
+.orange {color:#ee6419;}
+
+	
+a:link {color:#aa4519;}      /* unvisited link */
+a:visited {color:#aa4519;}  /* visited link */
+a:hover {color:#603513;}  /* mouse over link */
+a:active {color:#aa4519;}  /* selected link */ 
